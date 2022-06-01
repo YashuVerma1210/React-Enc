@@ -46,6 +46,7 @@ export default function App() {
       <span>AES Key - {JSON.stringify(aesKey)}</span> <br /> <br />
       <span>ENC DATA Key - {aesEncTrans.toString()}</span> <br /> <br />
       <span>AES key - {aesEncTrans.key.toString()}</span> <br /> <br />
+      <span>RSA ENC AES key - {rsaEncryptedAesKey}</span>
     </div>
   );
 }
