@@ -18,7 +18,6 @@ export default function App() {
   var aesKey = CryptoJS.PBKDF2(secretPhrase.toString(), salt, {
     keySize: 128 / 32,
   });
-  
 
   //initialization vector - 1st 16 chars of userId
   var iv = CryptoJS.enc.Utf8.parse(secretPhrase);
