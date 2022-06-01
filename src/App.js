@@ -36,7 +36,6 @@ export default function App() {
   var rsaEncrypt = new JSEncrypt();
   rsaEncrypt.setPublicKey(RSAPublicKey);
   var rsaEncryptedAesKey = rsaEncrypt.encrypt(aesEncTrans.key.toString());
-  console.log('RSA encrypted AES key [base64]: ' + rsaEncryptedAesKey);
 
   return (
     <div>
