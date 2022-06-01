@@ -44,6 +44,7 @@ export default function App() {
       <span>Secret Phrase - {JSON.stringify(secretPhrase)}</span> <br /> <br />
       <span>Salt - {JSON.stringify(salt)}</span> <br /> <br />
       <span>AES Key - {JSON.stringify(aesKey)}</span> <br /> <br />
+      <span>IV - {JSON.stringify(iv)}</span> <br /> <br />
       <span>ENC DATA Key - {aesEncTrans.toString()}</span> <br /> <br />
       <span>AES key - {aesEncTrans.key.toString()}</span> <br /> <br />
       <span>RSA ENC AES key - {rsaEncryptedAesKey}</span>
